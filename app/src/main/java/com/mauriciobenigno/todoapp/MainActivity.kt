@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         //setupActionBarWithNavController(navController)
     }
 
+    /* Por conta da implementação de addMenuProvider, a ação Back não é passado diretamente para a activity
+    * necessitando tratar por 'onMenuItemSelected' do provider, filtrando menuId com android.R.id.home
+    * */
     override fun onSupportNavigateUp(): Boolean {
         val navController = getNavController()
 
