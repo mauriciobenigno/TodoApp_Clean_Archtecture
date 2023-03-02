@@ -1,7 +1,8 @@
-package com.mauriciobenigno.todoapp.data
+package com.mauriciobenigno.todoapp.data.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.mauriciobenigno.todoapp.data.models.Priority
 
 @Entity(tableName = "mb_todo")
 data class ToDoData(

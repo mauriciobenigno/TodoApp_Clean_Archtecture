@@ -1,6 +1,7 @@
 package com.mauriciobenigno.todoapp.data
 
 import androidx.room.TypeConverter
+import com.mauriciobenigno.todoapp.data.models.Priority
 
 class Converter {
 
